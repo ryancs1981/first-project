@@ -18,6 +18,7 @@ public class HelloServlet extends HttpServlet {
 			throws ServletException,IOException{
 			PrintWriter  out = response.getWriter();
 			out.println("hello!");
+			out.println("hello world");
 		}
 
 }
